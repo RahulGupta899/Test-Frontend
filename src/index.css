@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+}
+.main_section{
+  height: 500px;
+  margin: 40px;
+  border-radius: 5px;
+  overflow-y:auto;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.task{
+  height: 100px;
+  margin:10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.add_button{
+  background-color: #171f70;
+  color: white;
+  padding: 4px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+.add_button:hover{
+  background-color: #171f70;
+}
+
+.remove_button{
+  height:40px;
+  width:40px;
+  border-radius: 50%;
+  background-color: brown;
+  color:white;
+}
+.remove_button:hover{
+  font-weight: 600;
+}
+
+.edit_button{
+  font-weight: 700;
+}
+
+.sort_icons:hover{
+  background-color: #171f70;
+  color:white;
+}
+
+.app_name{
+  font-size: 20px;
+  margin-left: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  text-transform:uppercase;
+}
+
+.form{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 10px;
+  padding: 25px 50px;
+}
